@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(0) #'rtsp://artyom:5497336@192.168.1.113:8554/unicast'
+cap = cv2.VideoCapture(0) 
 
 while True:
     ret, frame = cap.read()
@@ -26,7 +26,7 @@ cv2.destroyAllWindows()
 import numpy as np
 import cv2
 
-cap = cv2.VideoCapture(0) #'rtsp://artyom:5497336@192.168.1.113:8554/unicast'
+cap = cv2.VideoCapture(0)
 
 while True:
     ret, frame = cap.read()
