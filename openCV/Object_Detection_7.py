@@ -1,8 +1,8 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('soccer_practice.jpg', 0)
-template = cv2.imread('ball.png', 0)
+img = cv2.imread('soccer_practice.jpg', 0)       # Источник для поиска (картинка)
+template = cv2.imread('ball.png', 0)             # ВАЖНО чтобы образцы для поиска были такого же размера как на оригинале (по пикселям)
 h,w = template.shape
 
 # Список методов для определения искомого объекта на изображении
