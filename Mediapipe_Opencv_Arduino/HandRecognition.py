@@ -135,7 +135,7 @@ while True:
     if cv2.waitKey(1) == ord('q'):
         break
 #=========================================== ФИНАЛЬНАЯ ВЕРСИЯ =========================================
-
+# Project from LabRazum
 
 import cv2                              # библиотека opencv (получение и обработка изображения)
 import mediapipe as mp                  # библиотека mediapipe (распознавание рук)
